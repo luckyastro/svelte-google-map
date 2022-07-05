@@ -1,0 +1,25 @@
+{
+  "name": "svelte-vite-tailwind",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.49",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "svelte": "^3.48.0",
+    "tailwindcss": "^3.1.4",
+    "vite": "^2.9.13"
+  },
+  "dependencies": {
+    "@beyonk/async-script-loader": "^2.2.2",
+    "@fouita/slider": "0.0.4",
+    "@silintl/svelte-google-places-autocomplete": "^1.1.6",
+    "google-maps-svelte": "0.0.5",
+    "svelte-google-maps": "^0.2.0",
+    "svelte-range-slider-pips": "^2.0.3"
+  }
+}
