@@ -180,7 +180,6 @@
     circleRadius = radius * 1000;
     console.log("Radius:", radius);
 
-    marker.Circle.setMap(null);
     marker.Circle = new google.maps.Circle({
       center: marker.getPosition(),
       strokeColor: "#3B82F6",
